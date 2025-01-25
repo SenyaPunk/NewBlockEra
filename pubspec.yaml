@@ -1,0 +1,29 @@
+name: newblockera2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.5+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/skin/skin1.jpg
